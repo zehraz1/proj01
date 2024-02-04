@@ -4,11 +4,34 @@
 <head>
     <!-- Add meta tags, title, and link to styles.css here -->
 </head>
-<body style="background-color: white; color: rgb(151, 133, 109)">
+<body style="background-color: rgb(255, 255, 255); color: rgb(138, 119, 97)">
+    <style> 
+      *{
+        box-sizing: border-box;
+      }
+      
+      .img-container {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .img {
+        width:100%;
+        height: 70%;
+        object-fit: cover;
+
+      }
+      </style>
     <header>
-        <div style="display: flex;flex-direction: column; align-items: center; padding: 1%;">
-            <img src="img/blogo2.png" alt="Logo" width="170px">
-            <h1><i>Bridal Couture</i> </h1>
+        <div style="display: flex;flex-direction: column; align-items: center; padding: 1.5%;">
+            <img src="img/blogo2.png" alt="Logo" width="100px">
+            <h1><i>Bridal Couture</i></h1>
         </div>
         <!-- Logo and website name go here -->
     </header>
@@ -16,28 +39,41 @@
     <div>
         <nav style="text-align: center;">
             <ul style="margin: 0">
-                <li style="display: inline-block; margin-right: 50px;"><a href="index.html" style="text-decoration: none; font-size: 25px; color: rgb(151, 133, 109)">Home</a></li>
-                <li style="display: inline-block; margin-right: 50px;"><a href="products.html" style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109)">Products</a></li>
-                <li style="display: inline-block; margin-right: 50px;"><a href="contact.html" style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109)">About Us</a></li>
-                <li style="display: inline-block;"><a href="login.html" style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109)">Login</a></li>
+                <li style="display: inline-block; margin-right: 50px;"><a href="index.html" style="text-decoration: none; font-size: 24px; color: rgb(151, 133, 109)">Home</a></li>
+                <li style="display: inline-block; margin-right: 50px;"><a href="products.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">Products</a></li>
+                <li style="display: inline-block; margin-right: 50px;"><a href="contact.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">About Us</a></li>
+                <li style="display: inline-block;"><a href="login.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">Login</a></li>
             </ul>
         </nav>
         <!-- Navigation links go here -->
     </div>
 
-    <div style="text-align: center; padding: 20px;">
-        <img src="img/new.jpg" alt="background" style="width: 100%;height:auto;">
+    <div style="text-align: center; padding: 1%;">
+        <img src="img/dressback.jpg" alt="background" style="width: 100%;height:auto;">
     </div>
 
     <main>
         <!-- About Us Section -->
         <section class="about-us">
-            <div style="text-align: center; font-size: larger;">
+            <div style="text-align: center; font-size: 20px; padding: 2%;">
                 <h2><i>About Us</i></h2>
-                <p style="font-size: 120%; font-display:initial; text-align: center;">Welcome to <i>Bridal Couture</i>, your premier destination for exquisite Pakistani bridal attire. <br> Nestled in the heart of Calgary, we bring the allure and richness of Pakistani culture to brides around the world.<br>Step into our world of timeless elegance, where every thread tells a story and every stitch reflects a tradition.<br> Whether you're seeking a traditional red lehenga or a contemporary outfit with a touch of cultural flair, <br><i>Bridal Couture</i> is committed to making your dream bridal experience come to life.</p>
+                <p style="font-display:initial; text-align: center;">Welcome to <i>Bridal Couture</i>, your premier destination for exquisite Pakistani bridal attire. <br> Nestled in the heart of Calgary, we bring the allure and richness of Pakistani culture to brides around the world.<br>Step into our world of timeless elegance, where every thread tells a story and every stitch reflects a tradition.<br> Whether you're seeking a traditional red lehenga or a contemporary outfit with a touch of cultural flair, <br><i>Bridal Couture</i> is committed to making your dream bridal experience come to life.</p>
             <!-- About Us contents go here -->
         </section>
         <section class="shop-now">
+            <div class="clearfix">
+                <a href="products.html" style="text-decoration: none; font-size: 30px;color: rgb(151, 133, 109); text-align: center; display: flex; flex-direction: column; font-weight: bolder;"><i>Shop Now</i></a> 
+                <p style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109); text-align: center; display: flex; flex-direction: column"><i>Explore Endless Possibilities</i></p> 
+                <div class="img-container">
+                    <img src="img/dress4.jpg" alt="Rania" style="width:100%">
+                </div>
+                <div class="img-container">
+                    <img src="img/dress6.webp" alt="Noor" style="width:100%">
+                </div>
+                <div class="img-container">
+                    <img src="img/dress2.jpg" alt="Laila" style="width:100%">
+                </div>
+              </div>            
             <!-- Shop Now Button (as a link to the Products page) -->
         </section>
 
