@@ -10,6 +10,12 @@
             justify-content: space-around;
             padding: 15px;
         }
+        .header {
+            padding: 20px;
+            display: flex;
+            color: rgb(151, 133, 109);
+            align-items: center;
+        }
 
         article {
             text-align: center;
@@ -34,47 +40,58 @@
         .text-container {
             padding-left: 20px; /* Add some space between the image and text */
         }
-        
+        .logo {
+            max-width: 100px; /* Set the maximum width for the logo */
+            margin-right: 20px; /* Add margin to create space between the logo and text */
+        }
+
+        .text {
+            font-size: 18px; /* Adjust the font size as needed */
+        }
     </style>
     <!-- Add meta tags, title, and link to styles.css here -->
 </head>
-<body style="background-color:white ;color: rgb(151, 133, 109)">
-    <header>
-        <div style="display: flex;flex-direction: column; align-items: center; padding: 1%;">
-            <img src="img/blogo2.png" alt="Logo" width="170px">
-            <h1><i>Bridal Couture</i> </h1>
+<header>
+    <div class = header>
+        <img class="logo" src="img/blogo2.png" alt="Your Logo">
+        <div class="text">
+            <h2>Bridal Couture</h2>
         </div>
-        <!-- Logo and website name go here -->
-    </header>
-
-    <div>
-        <nav style="text-align: center;">
-            <ul style="margin: 0">
-                <li style="display: inline-block; margin-right: 50px;"><a href="index.html" style="text-decoration: none; font-size: 25px; color: rgb(151, 133, 109)">Home</a></li>
-                <li style="display: inline-block; margin-right: 50px;"><a href="products.html" style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109)">Products</a></li>
-                <li style="display: inline-block; margin-right: 50px;"><a href="contact.html" style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109)">About Us</a></li>
-                <li style="display: inline-block;"><a href="login.html" style="text-decoration: none; font-size: 25px;color: rgb(151, 133, 109)">Login</a></li>
-            </ul>
-        </nav>
-        <!-- Navigation links go here -->
     </div>
 
-    <main>
+    
+    <!-- Logo and website name go here -->
+</header>
+
+<div>
+    <nav style="text-align: center;">
+        <ul style="margin: 0">
+            <li style="display: inline-block; margin-right: 50px;"><a href="index.html" style="text-decoration: none; font-size: 24px; color: rgb(151, 133, 109)">Home</a></li>
+            <li style="display: inline-block; margin-right: 50px;"><a href="products.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">Products</a></li>
+            <li style="display: inline-block; margin-right: 50px;"><a href="contact.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">About Us</a></li>
+            <li style="display: inline-block;"><a href="login.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">Login</a></li>
+        </ul>
+    </nav>
+    <!-- Navigation links go here -->
+</div>
+
+    <main style="color:rgb(151, 133, 109) ;">
         <div class="image-container" style = "padding-top: 5%;">
             <img src="img/dress12.webp" alt="Your Photo" width="50%">
             <div class="text-container">
                 <h1>BEST SELLING </h1>
                 <p>Discover the epitome of bridal elegance with our top-selling Pakistani bridal dress in enchanting white. This timeless masterpiece features intricate embroidery, creating a stunning interplay of tradition and modernity. The A-line silhouette and delicate detailing make it a flattering choice for any bride, exuding sophistication and grace. Crafted with meticulous care, this dress ensures you not only look but also feel exquisite on your special day. Elevate your bridal style with this captivating ensemble, where every stitch tells a story of beauty and romance.</p>
-            <div> <p style="border-style:double; font-size: 25px;">BUY NOW</p></div>
+            <div> <p style="border-style:double; font-size: 25px;">Add to Card</p></div>
             </div>
         </div>
         
 
-        <section style="padding-top: 7%;">
+        <section style="padding-top:7%">
         <article>
             <img src="img/dress5.jpg" alt="Product 1">
             <h2>Rania</h2>
             <p>$3000</p>
+            <p>Add to Cart</p>
         </article>
 
         <!-- Product 2 -->
@@ -82,6 +99,7 @@
             <img src="img/dress1.jpg" alt="Product 2">
             <h2>Maya</h2>
             <p>$5000</p>
+            <p>Add to Cart</p>
         </article>
 
         <!-- Product 3 -->
@@ -89,6 +107,7 @@
             <img src="img/dress9.webp" alt="Product 3">
             <h2>Erum</h2>
             <p>$4500</p>
+            <p>Add to Cart</p>
         </article>
     </section>
 
@@ -97,6 +116,7 @@
             <img src="img/dress10.webp" alt="Product 1">
             <h2> Laila </h2>
             <p>$3500</p>
+            <p>Add to Cart</p>
         </article>
 
         <!-- Product 2 -->
@@ -104,6 +124,7 @@
             <img src="img/dress11.webp" alt="Product 2">
             <h2>Zoha</h2>
             <p>$3000</p>
+            <p>Add to Cart</p>
         </article>
 
         <!-- Product 3 -->
@@ -111,6 +132,7 @@
             <img src="img/dress13.webp" alt="Product 3">
             <h2>Mahir</h2>
             <p>$3500</p>
+            <p>Add to Cart</p>
         </article>
     </section>
 
@@ -119,6 +141,7 @@
             <img src="img/dress4.jpg" alt="Product 1">
             <h2>Saima</h2>
             <p>$3000</p>
+            <p>Add to Cart</p>
         </article>
 
         <!-- Product 2 -->
@@ -126,6 +149,7 @@
             <img src="img/dress6.webp" alt="Product 2">
             <h2>Zena</h2>
             <p>$3800</p>
+            <p>Add to Cart</p>
         </article>
 
         <!-- Product 3 -->
@@ -133,45 +157,19 @@
             <img src="img/dress2.jpg" alt="Product 3">
             <h2>Sajal</h2>
             <p>$4500</p>
+            <p>Add to Cart</p>
         </article>
     </section>
 
     </main>
     <footer>
-        <footer style="background-color: #adabab; color: #fff; padding: 20px; text-align: left;">
+        <footer style="background-color: rgb(151, 133, 109); color: #fff;text-align: left; padding-top: 5px;padding-left: 20px; padding-bottom: 20px;">
 
-            <!-- Contact Information -->
-            <div>
-                <h2><i>Contact Us</i></h2>
-                <p>Email: info@bridalcouture.com</p>
-                <p>Phone: +123 456 7890</p>
-            </div>
-    
-            <!-- Quick Links -->
-            <div>
-                <h2><i>Find More</i></h2>
-                <ul style="list-style: none; padding: 0;">
-                    <li><a href="index.html" style="text-decoration: none; color: ghostwhite;">Home</a></li>
-                    <li><a href="products.html"style="text-decoration: none; color: ghostwhite;">Bridal Collection</a></li>
-                    <li><a href="contact.html"style="text-decoration: none; color: ghostwhite;">Contact Us</a></li>
-                    <li><a href="login.html"style="text-decoration: none; color: ghostwhite;">Login</a></li>
-                </ul>
-            </div>
-    
-            <!-- Social Media Icons -->
-            <div>
-                <h2><i>Social Media</i></h2>
-                <a href="#" style="color: #fff; margin-right: 10px;">Facebook</a>
-                <a href="#" style="color: #fff; margin-right: 10px;">Twitter</a>
-                <a href="#" style="color: #fff; margin-right: 10px;">Instagram</a>
-            </div>
-    
             <!-- Copyright -->
             <div style="margin-top: 20px;">
                 <p>&copy; 2024 Bridal Couture. All rights reserved.</p>
             </div>
-        
-        <!-- Copyright notice goes here -->
     </footer>
+        
 </body>
 </html>
