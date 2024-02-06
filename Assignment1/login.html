@@ -1,80 +1,53 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Add meta tags, title, and link to styles.css here -->
-</head>
-<body style="background-color: rgb(255, 255, 255); color: rgb(138, 119, 97)">
-    <style> 
-      *{
-        box-sizing: border-box;
-      }
-      
-      .img-container {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
-      }
-      
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      .img {
-        width:100%;
-        height: 70%;
-        object-fit: cover;
-      }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+    </head>
+    <body>
     
-      .header {
-            padding: 20px;
-            display: flex;
-            color: rgb(151, 133, 109);
-            align-items: center;
-        }
-
-        .logo {
-            max-width: 100px; /* Set the maximum width for the logo */
-            margin-right: 20px; /* Add margin to create space between the logo and text */
-        }
-
-        .text {
-            font-size: 18px; /* Adjust the font size as needed */
-        }
-      </style>
-    <header>
-        <div class = header>
-            <img class="logo" src="img/blogo2.png" alt="Your Logo">
-            <div class="text">
-                <h2>Bridal Couture</h2>
-            </div>
+        <!-- Header -->
+        <header>
+            <img src="img/blogo2.png" alt="Your Logo" style="max-width: 100px; float: left; vertical-align: middle;">
+            <h1 style="margin-left: 10px; display: inline-block; vertical-align: middle;">Bridal Couture</h1>
+            <div style="clear: both;"></div>
+        </header>
+    
+        <!-- Navigation -->
+        <div>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="products.html">Products</a> |
+                <a href="contact.html">Contact Us</a> |
+                <a href="login.html">Login</a>
+            </nav>
         </div>
-
-        
-        <!-- Logo and website name go here -->
-    </header>
-
-    <div>
-        <nav style="text-align: center;">
-            <ul style="margin: 0">
-                <li style="display: inline-block; margin-right: 50px;"><a href="index.html" style="text-decoration: none; font-size: 24px; color: rgb(151, 133, 109)">Home</a></li>
-                <li style="display: inline-block; margin-right: 50px;"><a href="products.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">Products</a></li>
-                <li style="display: inline-block; margin-right: 50px;"><a href="contact.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">About Us</a></li>
-                <li style="display: inline-block;"><a href="login.html" style="text-decoration: none; font-size: 24px;color: rgb(151, 133, 109)">Login</a></li>
-            </ul>
-        </nav>
-        <!-- Navigation links go here -->
-    </div>
-
+    
+        <!-- Main Content -->
     <main>
-        
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <br>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <br>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <input type="submit" value="Login">
+
+            <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+        </form>
     </main>
     <footer>
-        <footer style="background-color: rgb(151, 133, 109); color: #fff;text-align: left; padding-top: 5px;padding-left: 20px; padding-bottom: 20px;">
+        <footer>
 
             <!-- Copyright -->
-            <div style="margin-top: 20px;">
+            <div>
                 <p>&copy; 2024 Bridal Couture. All rights reserved.</p>
             </div>
     </footer>
