@@ -1,0 +1,169 @@
+header {
+    background-color: #333; /* dark gray */
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+header h1 {
+    margin: 0;
+    color: white; /* Example: Set the color of the company name to white */
+    margin-left: auto; /* Pushes the company name to the right */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #333; /* dark gray */
+}
+
+nav a {
+    padding: 10px 20px; /* 10px top/bottom, 20px left/right */
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.back-sec img{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: center; /* Align content horizontally at the center */
+    align-items: center; /* Align content vertically at the center */
+    background-color: #ddd; /* medium gray background color */
+    padding: 20px;
+    margin: 20px;
+    text-align: center; /* Center text */
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: center; /* Align content horizontally at the center */
+    align-items: center; /* Align content vertically at the center */
+    background-color: #ddd; /* medium gray background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+.mission-vision div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.button-container a{
+    color: white;
+    text-decoration: none; /* Remove underline */;
+}
+
+.shop-now{
+    background-color: #4CAF50; /* Green */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    margin: 20px; /* Margin */ 
+    display: inline-block;
+}
+
+.shop-now:hover{
+    background-color: #45a049; /* Darker green */
+}
+
+.collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.customer-reviews {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    background-color: #ddd; /* Medium gray background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+.customer-reviews div {
+    padding: 10px;
+}
+
+footer {
+    background-color: #333; /* Dark gray background color */
+    padding: 10px;
+    margin: 0;
+}
+
+footer p {
+    color: white; /* Text color */
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute items evenly */
+    background-color: #ddd; /* Medium gray background color */
+    padding: 20px;
+    margin: 20px;
+}
+
+.product {
+    width: calc(50% - 20px); /* Two products per line */
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 20px;
+    margin-bottom: 20px; /* Adjust margin between products */
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.product:hover {
+    background-color: #ffffff; /* White background color on hover */
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    color: #007BFF; /* Blue color */
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px; /* Adjust margin between price and button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.add-to-cart:hover {
+    background-color: #45A049; /* Slightly darker shade of green on hover */
+}
+
