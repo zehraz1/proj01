@@ -174,7 +174,7 @@ footer p {
     background-color: #45A049; /* Slightly darker shade of green on hover */
 }
 
-main {
+.contact-main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
