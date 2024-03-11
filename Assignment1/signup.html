@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="img/blogo2.png" alt="Your Logo">
+        <h1>Bridal Couture</h1>
+    </header>
+
+    <div>
+            <nav>
+                <a href="index.html">Home</a> 
+                <a href="products.html">Products</a> 
+                <a href="contact.html">Contact Us</a> 
+                <a href="login.html">Login</a>
+            </nav>
+
+    </div>
+<main>
+    <section class="signup-form">
+        <form id="signupForm" action="#">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+            <button type="submit" id="signupButton">Signup</button>
+        </form>
+    </section>
+    <div id="messageBoxContainer">
+        <p id="message"></p>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 Bridal Couture. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -249,3 +249,48 @@ footer p {
     text-decoration: underline;
 }
 
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.signup-form label {
+    display: block;
+    margin: 10px;
+}
+
+.signup-form input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#signupButton {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#signupButton:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+#messageBoxContainer {
+    border: 2px solid #f9f9f9;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px;
+    display: none;
+}
+
+
