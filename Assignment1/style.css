@@ -293,4 +293,21 @@ footer p {
     display: none;
 }
 
+.hidden {
+    display: none;
+}
 
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+#message-box {
+    border: 2px solid #000;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px;
+}
